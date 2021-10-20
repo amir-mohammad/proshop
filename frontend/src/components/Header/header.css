@@ -1,0 +1,8 @@
+.header_icon_align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_icon_align span {
+  padding-left: 8px;
+}
