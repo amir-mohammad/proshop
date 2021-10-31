@@ -1,0 +1,22 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "online shopping for learing mern stack",
+  "main": "server.js",
+  "scripts": {
+      "dev":"node ./backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-mohammad/proshop.git"
+  },
+  "author": "amir azarbashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir-mohammad/proshop/issues"
+  },
+  "homepage": "https://github.com/amir-mohammad/proshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

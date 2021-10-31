@@ -38,6 +38,7 @@ const Rating = ({ value, numReviews }) => {
       ) : (
         <FaRegStar color="#f5bc04" size={15} />
       )}
+      <span> {numReviews} Reviews</span>
     </>
   );
 };
