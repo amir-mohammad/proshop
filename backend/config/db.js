@@ -8,7 +8,7 @@ const connectDB = async () => {
            useUnifiedTopology: true
         });
     
-        console.log(`MONGO DB CONNECTED: ${conn.connection.host}`);
+        console.log(`MONGO DB CONNECTED: ${conn.connection.host}`.bgGreen);
         
     } catch (error) {
         console.log(error.message);
