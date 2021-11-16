@@ -13,7 +13,11 @@ dotenv.config();
 //connect to db
 connectDB();
 app.use(cors());
-
+app.use((req,res,next) => {
+    console.log(req.originalUrl);
+   
+    next();
+})
 
 app.use('/api/products',productRoute);
 
