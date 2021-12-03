@@ -19,7 +19,7 @@ function App() {
         <Container>
           <Route path="/" component={HomeScreen} exact />
           <Route path="/aboutus" component={AboutUs} />
-          <Route path="/cart" component={CartScreen} />
+          <Route path="/cart/:id?" component={CartScreen} />
           <Route path="/signin" component={SingInScreen} />
           <Route path="/product/:id" component={ProductScreen} />
         </Container>
