@@ -8,8 +8,8 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import":"node backend/seeder.js -i",
-    "data:destroy":"node backend/seeder.js -d"
+    "data:import": "node backend/seeder.js -i",
+    "data:destroy": "node backend/seeder.js -d"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
     "mongoose": "^6.0.12"
   },
   "devDependencies": {
